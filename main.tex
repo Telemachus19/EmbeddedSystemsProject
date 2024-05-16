@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=\textwidth]{figs/logo.jpg} % Adjust the width as needed
+        \vspace{1cm}
+        
+        \Huge{\textbf{Embedded Systems Project Report}}
+        
+        \vspace{1.5cm}
+        \Large{Issued to Dr. Mohamed El Habrouk\\
+        Alexandria University\\
+        Faculty of Computer and Data Science}
+        
+        \vspace{2.5cm}
+        \begin{tcolorbox}[colframe=blue!50!black, colback=blue!5, sharp corners]
+            \begin{center}
+                \LARGE{\textbf{Smart Home Project}}
+            \end{center}
+        \end{tcolorbox}
+        
+        \vfill
+        
+        \Large{Date: \today}
+    \end{center}
+\end{titlepage}
+
+% Start a new page for the main content
+\newpage
+\input{abstract_and_team}
+
+% Add a new page for the table of contents
+\newpage
+\tableofcontents
+
+\newpage
+\input{Introduction}
+
+\newpage
+\input{system_design}
+
+\newpage
+\input{solution_implementation}
+
+% Continue with the rest of your main document
+% You can start from here and add more sections, figures, etc.
+
+\end{document}
